@@ -1,6 +1,6 @@
 
--git clone https://github.com/EMshady92/gestion_salas.git
-
+-git clone https://github.com/EMshady92/orders_ecommerce_Daxcsa-.git
+    
 -composer update
 
 -npm install && npm run build

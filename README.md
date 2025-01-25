@@ -13,7 +13,7 @@
 
 or i add database archive orders.sql
 
--php artisan serve
+-php artisan serve && npm run dev "run vite"
 
 
 

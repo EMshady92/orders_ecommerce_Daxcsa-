@@ -1,12 +1,12 @@
 <div class="w-full flex justify-center">
     <div  class="container py-12">
         <div class="flex mb-6">
-            <button class="text-lg px-4 py-2 font-semibold rounded-sm {{$type==1 ? 'bg-orange-500 text-white' : ''}}" wire:click="updateType(1)">My Purchaces</button>
-            <button class="text-lg px-4 py-2 font-semibold rounded-sm {{$type==2 ? 'bg-orange-500 text-white' : ''}}" wire:click="updateType(2)">My Sales</button>
+            <button class="text-lg px-4 py-2 font-semibold rounded-sm {{$type==1 ? 'bg-orange-500 text-white' : ''}}">My Purchaces</button>
+            <button class="text-lg px-4 py-2 font-semibold rounded-sm {{$type==2 ? 'bg-orange-500 text-white' : ''}}">My Sales</button>
         </div>
         {{-- web --}}
         <section class="md:grid grid-cols-6 gap-6 text-white hidden">
-            <button wire:click="updateStatus()" class="bg-blue-500 bg-opacity-75 rounded-lg pt-8 pb-4">
+            <button  class="bg-blue-500 bg-opacity-75 rounded-lg pt-8 pb-4">
                 <p class="text-center text-2xl">
                     {{ $todos }}
                 </p>
@@ -16,7 +16,7 @@
                 </p>
             </button>
 
-            <button wire:click="updateStatus(2)" class="bg-gray-500 bg-opacity-75 rounded-lg pt-8 pb-4">
+            <button  class="bg-gray-500 bg-opacity-75 rounded-lg pt-8 pb-4">
                 <p class="text-center text-2xl">
                     {{ $solicitudes }}
                 </p>
@@ -26,7 +26,7 @@
                 </p>
             </button>
 
-            <button wire:click="updateStatus(3)" class="bg-yellow-500 bg-opacity-75 rounded-lg pt-8 pb-4">
+            <button  class="bg-yellow-500 bg-opacity-75 rounded-lg pt-8 pb-4">
                 <p class="text-center text-2xl">
                     {{ $pagados }}
                 </p>
@@ -36,7 +36,7 @@
                 </p>
             </button>
 
-            <button wire:click="updateStatus(6)" class="bg-orange-500 bg-opacity-75 rounded-lg pt-8 pb-4">
+            <button  class="bg-orange-500 bg-opacity-75 rounded-lg pt-8 pb-4">
                 <p class="text-center text-2xl">
                     {{ $camino }}
                 </p>
@@ -46,7 +46,7 @@
                 </p>
             </button>
 
-            <button wire:click="updateStatus(4)" class="bg-green-500 bg-opacity-75 rounded-lg pt-8 pb-4">
+            <button  class="bg-green-500 bg-opacity-75 rounded-lg pt-8 pb-4">
                 <p class="text-center text-2xl">
                     {{ $entregados }}
                 </p>
@@ -56,7 +56,7 @@
                 </p>
             </button>
 
-            <button wire:click="updateStatus(5)" class=" bg-red-500 bg-opacity-75 rounded-lg pt-8 pb-4">
+            <button  class=" bg-red-500 bg-opacity-75 rounded-lg pt-8 pb-4">
                 <p class="text-center text-2xl">
                     {{ $cancelados }}
                 </p>

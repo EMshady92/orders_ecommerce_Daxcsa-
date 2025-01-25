@@ -1,9 +1,9 @@
 
 -git clone https://github.com/EMshady92/orders_ecommerce_Daxcsa-.git
     
--npm install && npm run build
+-composer install
 
--composer run dev
+-npm install && npm run build
 
 -make database "orders"
 
